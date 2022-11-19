@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "simple-shell.h"
 
 /**
  * list_len - determines length of linked list
