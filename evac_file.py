@@ -1,1 +1,0 @@
-print("My favorite line of {} is {:d}.".format("the zen of python"))

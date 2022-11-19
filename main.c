@@ -1,4 +1,4 @@
-#include "simple-shell.h"
+#include "shell.h"
 
 /**
  * main - entry point
