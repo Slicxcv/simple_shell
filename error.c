@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *_eputs - prints an input string
+ * _eputs - prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing
@@ -49,6 +49,7 @@ int _eputchar(char c)
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _putfd(char c, int fd)
 {
 	static int i;
@@ -65,7 +66,7 @@ int _putfd(char c, int fd)
 }
 
 /**
- *_putsfd - prints an input string
+ * _putsfd - prints an input string
  * @str: the string to be printed
  * @fd: the filedescriptor to write to
  *

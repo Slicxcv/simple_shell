@@ -108,7 +108,7 @@ int read_history(info_t *info)
  * @buf: buffer
  * @linecount: the history linecount, histcount
  *
- * Return: Always 0
+ * Return: Always
  */
 int build_history_list(info_t *info, char *buf, int linecount)
 {

@@ -84,7 +84,7 @@ size_t print_list(const list_t *h)
  * @prefix: string to match
  * @c: the next character after prefix to match
  *
- * Return: match node or null
+ * Return: match node or nulL
  */
 list_t *node_starts_with(list_t *node, char *prefix, char c)
 {

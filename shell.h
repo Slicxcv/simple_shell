@@ -61,7 +61,7 @@ typedef struct liststr
  *@err_num: the error code for exit()s
  *@linecount_flag: if on count this line of input
  *@fname: the program filename
- *@env: linked list local copy of environ
+ *@env: linked list local copy of environe
  *@environ: custom modified copy of environ from LL env
  *@history: the history node
  *@alias: the alias node
@@ -98,7 +98,6 @@ typedef struct passinfo
 #define INFO_INIT \
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
 	0, 0, 0}
-
 /**
  *struct builtin - contains a builtin string and related function
  *@type: the builtin command flag

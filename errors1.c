@@ -4,7 +4,7 @@
  * _erratoi - converts a string to an integer
  * @s: the string to be converted
  * Return: 0 if no numbers in string, converted number otherwise
- *       -1 on error
+ * -1 on error
  */
 int _erratoi(char *s)
 {
@@ -33,7 +33,7 @@ int _erratoi(char *s)
  * @info: the parameter & return info struct
  * @estr: string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise
- *        -1 on error
+ * -1 on error
  */
 void print_error(info_t *info, char *estr)
 {
